@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Задача «Главная Яндекса»</title>
+</head>
+<body>
+<main class="outer">
+    <header class="header">
+        <a href="#" class="geo-link header__link">
+            <img src="pics/geo.jpg" alt="Геострелка" class="geo-link__button">
+            <span class="geo-link__region">Москва</span>
+        </a>
+        <a href="#" class="set-home header__link">Сделать стартовой</a>
+        <a href="#" class="privacy minor-text header__link">Конфиденциальность</a>
+    </header>
+    <div class="email-form">
+        <input type="checkbox" class="email-form__checkbox" id="change-widget">
+        <label class="email-form__label" for="change-widget"></label>
+        <div class="email-form__card">
+            <div class="email-form__name">
+                <a href="#" class="email-form__link">Гоголев Сергей</a>
+            </div>
+            <a href="#" class="email-form-photo email-form_hidden email-form__link">
+                <img src="pics/user.jpg" alt="Пользователь" class="user-photo">
+            </a>
+            <div class="email-form__emails">
+                <a href="#" class="email-form__link">Почта</a>
+                <div class="email-form__new-emails minor-text">новых нет</div>
+            </div>
+            <div class="email-from__write email-form_hidden">
+                <a href="#" class="email-form__link">Написать письмо</a>
+            </div>
+            <div class="email-form__disk email-form_hidden">
+                <a href="#" class="email-form__link">Диск</a>
+            </div>
+        </div>
+    </div>
+    <div class="top-widgets">
+        <input type="checkbox" id="change-news-widget" class="min-widget">
+        <input type="radio" class="news-widget_hidden now" id="now" name="radio" checked>
+        <input type="radio" class="news-widget_hidden town" id="town" name="radio">
+        <input type="radio" class="news-widget_hidden sapid" id="sapid" name="radio">
+        <div class="news-widget widget">
+            <div class="news-widget__header">
+                <label class="collapse-label news__label" for="now">Сейчас в СМИ</label>
+                <label class="collapse-label news__label" for="town">в Москве</label>
+                <label class="collapse-label news__label" for="sapid">Интересное</label>
+                <div class="minor-text header__text news-widget-block">02.12, 23:07</div>
+                <label class="news-widget-cursor-1 news__label" for="change-news-widget"></label>
+                <label class="news-widget-cursor-2 news__label" for="change-news-widget"></label>
+            </div>
+            <div class="news-widget_hidden">
+                <span class="minor-text text_hidden">Актуальные новости и события дня</span>
+            </div>
+            <div class="news-widget__content">
+                <div class="news-widget__content_checked media-news">
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo1.png" class="news-widget__pic" alt="Новость1">
+                        </a>
+                        Зеленский пообещал бороться за «потерявшихся» жителей Донбасса</p>
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo2.webp" class="news-widget__pic" alt="Новость2">
+                        </a>
+                        Россия и Китай запустили «Силу Сибири»</p>
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo3.webp" class="news-widget__pic" alt="Новость3">
+                        </a>
+                        В Киеве назвали условия отказа от исков к «Газпрому»</p>
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo4.webp" class="news-widget__pic" alt="Новость4">
+                        </a>
+                        Трое российских военных пострадали при взрыве в Сирии</p>
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo5.webp" class="news-widget__pic" alt="Новость5">
+                        </a>
+                        Захарова ответила на слова Киева о готовности принять «пару областей»</p>
+                </div>
+                <div class="news-widget__content_checked local-news">
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo2.webp" class="news-widget__pic" alt="Новость1">
+                        </a>
+                        Голых женщин на картинах «одели» на выставке в российском городе</p>
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo1.png" class="news-widget__pic" alt="Новость2">
+                        </a>
+                        Сато победил на этапе Кубка мира по прыжкам на лыжах с трамплина</p>
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo4.webp" class="news-widget__pic" alt="Новость3">
+                        </a>
+                        В Москве трамвай протаранил выехавшую на пути легковушку</p>
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo3.webp" class="news-widget__pic" alt="Новость4">
+                        </a>
+                        В Москве с шестого этажа выпал человек</p>
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo5.webp" class="news-widget__pic" alt="Новость5">
+                        </a>
+                        Под Москвой 20-летняя девушка спровоцировала смертельное ДТП</p>
+                </div>
+                <div class="news-widget__content_checked sapid-news">
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo5.webp" class="news-widget__pic" alt="Новость1">
+                        </a>
+                        В Сербии Поклонскую прозвали «железной леди Путина»</p>
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo2.webp" class="news-widget__pic" alt="Новость2">
+                        </a>
+                        В Нью-Йорке исчезла табличка из расследования Навального об Аскер-Заде</p>
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo1.png" class="news-widget__pic" alt="Новость3">
+                        </a>
+                        Названы разрушающие кишечник продукты</p>
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo4.webp" class="news-widget__pic" alt="Новость4">
+                        </a>
+                        Подозреваемый в убийстве Хангошвили работал в спецназе ФСБ</p>
+                    <p class="news-widget__paragraph">
+                        <a href="#" class="news-widget__link">
+                            <img src="pics/logo3.webp" class="news-widget__pic" alt="Новость5">
+                        </a>
+                        В Минске возобновились протесты против интеграции с Россией</p>
+                </div>
+                <p class="news-widget__currency news-widget__paragraph">
+                    <span class="news-widget__text direction_left">Курсы ЦБ:</span>
+                    <span>USD 64,10</span>
+                    <span class="minor-text news-widget__currency-text news-widget__text">+0,13</span>
+                    <span>EUR 70,44</span>
+                    <span class="minor-text news-widget__currency-text news-widget__text">-0,11</span>
+                    <span>НЕФТЬ 62,81</span>
+                    <span class="minor-text news-widget__currency-text news-widget__text">-2,10%</span>
+                </p>
+            </div>
+        </div>
+        <div class="teaser">
+            <a href="#" class="teaser__link">
+                <img src="pics/yandex.png" class="teaser__pic" alt="Поиск и стартовая страница Яндекс">
+            </a>
+            <h1 class="teaser__title">Сделать Яндекс</h1>
+            <div class="teaser__description">
+                <span class="teaser__text">стартовой страницей</span>
+                <span class="teaser__text">и основным поиском<span class="desc-age">0+</span></span>
+            </div>
+        </div>
+    </div>
+    <div class="search-form">
+        <div class="search-form__logo">
+            <a href="#" class="logo-container">
+                <div class="logo"></div>
+            </a>
+        </div>
+        <div class="search-form__header">
+            <a href="#" class="search-form__header-link">Видео</a>
+            <a href="#" class="search-form__header-link">Картинки</a>
+            <a href="#" class="search-form__header-link">Новости</a>
+            <a href="#" class="search-form__header-link">Карты</a>
+            <a href="#" class="search-form__header-link">Маркет</a>
+            <a href="#" class="search-form__header-link">Переводчик</a>
+            <a href="#" class="search-form__header-link">Музыка</a>
+            <a href="#" class="search-form__header-link">Афиша</a>
+            <a href="#" class="search-form__header-link">ещё</a>
+        </div>
+        <div class="search-form__input">
+            <div class="input-line-container">
+                <input type="text" class="input-line">
+                <a href="#" class="voice-help">
+                    <img src="pics/voice.PNG" class="voice-help__pic" alt="Голосовой помощник">
+                </a>
+                <a href="#" class="keyboard">
+                    <img src="pics/keyboard.PNG" class="keyboard__pic" alt="Дополнительная клавиатура">
+                </a>
+            </div>
+            <div class="search-button-container">
+                <button type="submit" class="search-button">
+                    <span class="button-text">Найти</span>
+                </button>
+            </div>
+        </div>
+        <div class="search-form__footer">
+            <div>Найдется всё. Например,</div>
+            <span class="minor-text search-form__text">насколько или на сколько</span>
+        </div>
+    </div>
+    <div class="bottom-widgets">
+        <div class="weather-widget widget">
+            <input type="checkbox" class="collapse-widget" id="weather__change">
+            <div class="weather-widget__header widget-header">
+                <a href="#" class="widget-link">Погода</a>
+                <label class="widget-header-cursor-1" for="weather__change"></label>
+                <label class="widget-header-cursor-2" for="weather__change"></label>
+            </div>
+            <div class="weather-widget_hidden widget_hidden">
+                <span class="minor-text">Прогноз погоды рядом с вами</span>
+            </div>
+            <div class="weather-widget__content widget-content">
+                <a href="#" class="weather-widget__content__image">
+                    <img src="pics/weather.png" alt="Прогноз погоды">
+                </a>
+                <div class="degrees">−1°</div>
+                <div class="degrees__description">
+                    <span>Вечером 0,</span>
+                    <span>ночью -1</span>
+                </div>
+            </div>
+        </div>
+        <div class="traffic-widget widget">
+            <input type="checkbox" class="collapse-widget" id="traffic__change">
+            <div class="traffic-widget__header widget-header">
+                <a href="#" class="widget-link">Пробки</a>
+                <label class="widget-header-cursor-1" for="traffic__change"></label>
+                <label class="widget-header-cursor-2" for="traffic__change"></label>
+            </div>
+            <div class="traffic-widget_hidden widget_hidden">
+                <span class="minor-text">Ситуация на дорогах в вашем городе</span>
+            </div>
+            <div class="traffic-widget__content widget-content">
+                <a href="#" class="traffic-widget__content__image">
+                    <img src="pics/traffic.PNG" alt="Пробки">
+                </a>
+                <div class="scale">7</div>
+                <div class="scale__description">
+                    <span>Серьезные пробки</span>
+                </div>
+            </div>
+        </div>
+        <div class="map-widget widget">
+            <input type="checkbox" class="collapse-widget" id="map__change">
+            <div class="map-widget__header widget-header">
+                <a href="#" class="widget-link">Карта Москвы</a>
+                <label class="widget-header-cursor-1" for="map__change"></label>
+                <label class="widget-header-cursor-2" for="map__change"></label>
+            </div>
+            <div class="map-widget_hidden widget_hidden">
+                <span class="minor-text">Ситуация на дорогах в вашем городе</span>
+            </div>
+            <div class="map-widget__content widget-content">
+                <div class="widget-content_column">
+                    <span class="map-widget__text">Метро</span>
+                    <span class="map-widget__text">Такси</span>
+                    <span class="map-widget__text">Расписание</span>
+                </div>
+                <div class="widget-content_column">
+                    <span class="map-widget__text">Сообщество соседей</span>
+                </div>
+            </div>
+        </div>
+        <div class="popular-widget widget">
+            <input type="checkbox" class="collapse-widget" id="popular__change">
+            <div class="popular-widget__header widget-header">
+                <a href="#" class="widget-link">Посещаемое</a>
+                <label class="widget-header-cursor-1" for="popular__change"></label>
+                <label class="widget-header-cursor-2" for="popular__change"></label>
+            </div>
+            <div class="popular-widget_hidden widget_hidden">
+                <span class="minor-text">Популярные сервисы Яндекса</span>
+            </div>
+            <div class="popular-widget__content widget-content">
+                <span class="widget-content_column">
+                    <span class="popular-widget__text_bold">Беру</span>- pankratov black friday
+                </span>
+                <span class="widget-content_column">
+                    <span class="popular-widget__text_bold">Недвижимость</span>- классический стиль
+                </span>
+                <span class="widget-content_column">
+                    <span class="popular-widget__text_bold">Авто.ру</span>- зимняя резина для авто
+                </span>
+            </div>
+        </div>
+        <div class="tv-program-widget widget">
+            <input type="checkbox" class="collapse-widget" id="tv-program__change">
+            <div class="tv-program-widget__header widget-header">
+                <a href="#" class="widget-link">Телепрограмма</a>
+                <label class="widget-header-cursor-1" for="tv-program__change"></label>
+                <label class="widget-header-cursor-2" for="tv-program__change"></label>
+            </div>
+            <div class="tv-program-widget_hidden widget_hidden">
+                <span class="minor-text">Программа передач по каналам</span>
+            </div>
+            <div class="tv-program-widget__content widget-content">
+                <span class="widget-content_column">
+                    <span class="time">12:25</span>
+                    "Игра в биссер"
+                    <span class="minor-text tv-program-widget__text">Культура</span>
+                </span>
+                <span class="widget-content_column">
+                    <span class="time">12:30</span>
+                    Новости
+                    <span class="minor-text tv-program-widget__text">РЕН ТВ</span>
+                </span>
+                <span class="widget-content_column">
+                    <span class="time">12:30</span>
+                    Спаси свою любовь
+                    <span class="minor-text tv-program-widget__text">ТНТ</span>
+                </span>
+            </div>
+        </div>
+        <div class="media-widget widget">
+            <input type="checkbox" class="collapse-media-widget collapse-widget" id="media__change">
+            <input type="radio" class="media-widget_hidden now-tv" id="now-tv" name="radio2" checked>
+            <input type="radio" class="media-widget_hidden films" id="films" name="radio2">
+            <input type="radio" class="media-widget_hidden serials" id="serials" name="radio2">
+            <div class="media-widget__header widget-header">
+                <input type="radio" class="media-widget_hidden" id="live" name="radio3">
+                <label class="hidden-label media-widget__label" for="live">Сейчас в эфире</label>
+                <label class="collapse-label media-widget__label" for="now-tv">Эфир</label>
+                <label class="collapse-label media-widget__label" for="films">Фильмы</label>
+                <label class="collapse-label media-widget__label" for="serials">Сериалы</label>
+                <a href="#" class="icon widget-link">
+                    <img src="pics/nhl_stream.png" class="media-widget__header-pic" alt="НХЛ">
+                </a>
+                <label class="media-widget-cursor-1 widget-header-cursor-1 media-widget__label"
+                       for="media__change"></label>
+                <label class="media-widget-cursor-2 widget-header-cursor-2 media-widget__label"
+                       for="media__change"></label>
+            </div>
+            <div class="media-widget_hidden widget_hidden">
+                <span class="minor-text">Эфир любимых каналов</span>
+            </div>
+            <div class="media-widget__content widget-content tv-content">
+                <span class="widget-content_column">
+                    <a href="#" class="media-widget__content-link">
+                        <img src="pics/play.png" class="media-widget__content-pic" alt="Play">
+                    </a>
+                    Малые реки
+                    <span class="minor-text media-widget__text">Охотник и рыболов</span>
+                </span>
+                <span class="widget-content_column">
+                    <a href="#" class="media-widget__content-link">
+                        <img src="pics/play.png" class="media-widget__content-pic" alt="Play">
+                    </a>
+                    События
+                    <span class="minor-text media-widget__text">ОТВ 24</span>
+                </span>
+                <span class="widget-content_column">
+                    <a href="#" class="media-widget__content-link">
+                        <img src="pics/play.png" class="media-widget__content-pic" alt="Play">
+                    </a>
+                    Особое мнение // повтор
+                    <span class="minor-text media-widget__text">Эхо Москвы</span>
+                </span>
+            </div>
+            <div class="media-widget__content widget-content films-content">
+                <span class="widget-content_column">
+                    <a href="#" class="media-widget__content-link">
+                        <img src="pics/play.png" class="media-widget__content-pic" alt="Play">
+                    </a>
+                    Брат
+                    <span class="minor-text media-widget__text">1977, боевик</span>
+                </span>
+                <span class="widget-content_column">
+                    <a href="#" class="media-widget__content-link">
+                        <img src="pics/play.png" class="media-widget__content-pic" alt="Play">
+                    </a>
+                    Легенда
+                    <span class="minor-text media-widget__text">2015, триллер</span>
+                </span>
+                <span class="widget-content_column">
+                    <a href="#" class="media-widget__content-link">
+                        <img src="pics/play.png" class="media-widget__content-pic" alt="Play">
+                    </a>
+                    Омерзительная восьмёрка
+                    <span class="minor-text media-widget__text">2015, триллер</span>
+                </span>
+            </div>
+            <div class="media-widget__content widget-content serials-content">
+                <span class="widget-content_column">
+                    <a href="#" class="media-widget__content-link">
+                        <img src="pics/play.png" class="media-widget__content-pic" alt="Play">
+                    </a>
+                    Бригада
+                    <span class="minor-text media-widget__text">2002, боевик</span>
+                </span>
+                <span class="widget-content_column">
+                    <a href="#" class="media-widget__content-link">
+                        <img src="pics/play.png" class="media-widget__content-pic" alt="Play">
+                    </a>
+                    Барбоскины
+                    <span class="minor-text media-widget__text">2011, мультфильм</span>
+                </span>
+                <span class="widget-content_column">
+                    <a href="#" class="media-widget__content-link">
+                        <img src="pics/play.png" class="media-widget__content-pic" alt="Play">
+                    </a>
+                    Смешарики
+                    <span class="minor-text media-widget__text">2005, мультфильм</span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="#" class="footer__direct footer__link minor-text">Директ</a>
+        <a href="#" class="footer__metrics footer__link minor-text">Метрика</a>
+        <a href="#" class="footer__add footer__link minor-text">Реклама</a>
+        <a href="#" class="footer__cash footer__link minor-text">Касса</a>
+        <a href="#" class="footer__vacancies footer__link minor-text">Вакансии</a>
+        <a href="#" class="footer__blog footer__link minor-text">Блог</a>
+        <a href="#" class="footer__company footer__link minor-text">Компания</a>
+        <a href="#" class="footer__about footer__link minor-text">About</a>
+        <a href="#" class="footer__privacy footer__link minor-text">Конфиденциальность</a>
+        <a href="#" class="footer__user-agreement footer__link minor-text">Пользовательское соглашение</a>
+        <a class="footer__copyright minor-text">©&nbsp;Яндекс</a>
+    </footer>
+</main>
+</body>
+</html>
